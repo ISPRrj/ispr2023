@@ -35,7 +35,7 @@
 proc checkRequiredFiles { origin_dir} {
   set status true
   set files [list \
- "[file normalize "$origin_dir/src/constr/lab1.xdc"]"\
+ "[file normalize "$origin_dir/src/constr/${_xil_proj_name_}.xdc"]"\
   ]
   foreach ifile $files {
     if { ![file isfile $ifile] } {
@@ -125,7 +125,7 @@ if { $validate_required } {
 }
 
 # Create project
-create_project ${_xil_proj_name_} ./${_xil_proj_name_} -part xc7z010clg400-1
+create_project ${_xil_proj_name_} ./project -part xc7z010clg400-1
 
 # Set the directory path for the new project
 set proj_dir [get_property directory [current_project]]
@@ -172,9 +172,9 @@ if {[string equal [get_filesets -quiet constrs_1] ""]} {
 set obj [get_filesets constrs_1]
 
 # Add/Import constrs file and set constrs file properties
-set file "[file normalize "$origin_dir/src/constr/lab1.xdc"]"
+set file "[file normalize "$origin_dir/src/constr/${_xil_proj_name_}.xdc"]"
 set file_added [add_files -norecurse -fileset $obj [list $file]]
-set file "$origin_dir/src/constr/lab1.xdc"
+set file "$origin_dir/src/constr/${_xil_proj_name_}.xdc"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets constrs_1] [list "*$file"]]
 set_property -name "file_type" -value "XDC" -objects $file_obj
@@ -1115,7 +1115,7 @@ set_property SYNTH_CHECKPOINT_MODE "Hierarchical" [get_files system.bd ]
 
 #call make_wrapper to create wrapper files
 if { [get_property IS_LOCKED [ get_files -norecurse system.bd] ] == 1  } {
-  import_files -fileset sources_1 [file normalize "${origin_dir}/project/lab1.gen/sources_1/bd/system/hdl/system_wrapper.vhd" ]
+  import_files -fileset sources_1 [file normalize "${origin_dir}/project/${_xil_proj_name_}.gen/sources_1/bd/system/hdl/system_wrapper.vhd" ]
 } else {
   set wrapper_path [make_wrapper -fileset sources_1 -files [ get_files -norecurse system.bd] -top]
   add_files -norecurse -fileset sources_1 $wrapper_path
