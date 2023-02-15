@@ -111,8 +111,8 @@ int main()
     	XGpioPs_WritePin(&gpiops, 7, btn&0x000F);
     	XGpio_DiscreteWrite(&led, 1, switches&0x000F);
     	//xil_printf("\nSwitches value is 0x%04X\r\n", switches&0x000F); //Only 4 bits
-    	if ((switches&0x000F) == 0x000F){
-    		exit(0);
+    	if ((switches&0x000F) == 0x0002){
+    		//Lanzar el Vivado Logic Analyzer
     	}
     	for (int i = 0; i < 9999999; i++);
     }
