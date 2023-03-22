@@ -1870,3 +1870,337 @@ TRACE::2023-03-08.18:54:27::SCWMssOS::Checking the sw design at  /home/ispr/ispr
 TRACE::2023-03-08.18:54:27::SCWMssOS::DEBUG:  swdes dump  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system||
 
 TRACE::2023-03-08.18:54:27::SCWMssOS::Sw design exists and opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:05::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:05::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:05::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:05::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:05::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:05::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-22.15:21:06::SCWPlatform::Opened new HwDB with name system_wrapper
+TRACE::2023-03-22.15:21:06::SCWReader::Active system found as  system_platform
+TRACE::2023-03-22.15:21:06::SCWReader::Handling sysconfig system_platform
+TRACE::2023-03-22.15:21:06::SCWDomain::checking for install qemu data   : 
+TRACE::2023-03-22.15:21:06::SCWDomain:: Using the QEMU Data from install at  : /opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-03-22.15:21:06::SCWDomain:: Using the QEMU args  from install at  : /opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Opened existing hwdb system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Opened existing hwdb system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Opened existing hwdb system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Opened existing hwdb system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:06::SCWMssOS::Checking the sw design at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-03-22.15:21:06::SCWMssOS::No sw design opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWMssOS::mss exists loading the mss file  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWMssOS::Opened the sw design from mss  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWMssOS::Adding the swdes entry /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system
+TRACE::2023-03-22.15:21:06::SCWMssOS::updating the scw layer about changes
+TRACE::2023-03-22.15:21:06::SCWMssOS::Opened the sw design.  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWMssOS::Saving the mss changes /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-22.15:21:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-22.15:21:06::SCWMssOS::Commit changes completed.
+TRACE::2023-03-22.15:21:06::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-03-22.15:21:06::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Opened existing hwdb system_wrapper
+TRACE::2023-03-22.15:21:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:06::SCWMssOS::Checking the sw design at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWMssOS::DEBUG:  swdes dump  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system||
+
+TRACE::2023-03-22.15:21:06::SCWMssOS::Sw design exists and opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:06::SCWReader::No isolation master present  
+TRACE::2023-03-22.15:21:10::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa/system_wrapper.xsa
+TRACE::2023-03-22.15:21:10::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa/system_wrapper.xsa
+TRACE::2023-03-22.15:21:10::SCWPlatform:: Platform location is /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa
+TRACE::2023-03-22.15:21:10::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa/system_wrapper.xsa
+TRACE::2023-03-22.15:21:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:11::SCWMssOS::Doing hw sync for the mss in domain: standalone_ps7_cortexa9_0
+TRACE::2023-03-22.15:21:11::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:11::SCWPlatform::Trying to set the existing hwdb with name system_wrapper
+TRACE::2023-03-22.15:21:11::SCWPlatform::Opened existing hwdb system_wrapper
+TRACE::2023-03-22.15:21:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:11::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:11::SCWPlatform::Trying to set the existing hwdb with name system_wrapper
+TRACE::2023-03-22.15:21:11::SCWPlatform::Opened existing hwdb system_wrapper
+TRACE::2023-03-22.15:21:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:11::SCWMssOS::Checking the sw design at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:11::SCWMssOS::DEBUG:  swdes dump  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system||
+
+TRACE::2023-03-22.15:21:11::SCWMssOS::Sw design exists and opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:11::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/tempdsa/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:11::SCWPlatform::update - Opened existing hwdb system_wrapper_0
+TRACE::2023-03-22.15:21:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:11::SCWMssOS::Saving the mss changes /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-22.15:21:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-22.15:21:11::SCWMssOS::Commit changes completed.
+TRACE::2023-03-22.15:21:11::SCWMssOS::Completed hw sync for the mss in domain: standalone_ps7_cortexa9_0
+TRACE::2023-03-22.15:21:11::SCWMssOS::Removing the swdes entry for  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:11::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:11::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-22.15:21:13::SCWPlatform::Opened new HwDB with name system_wrapper_1
+TRACE::2023-03-22.15:21:13::SCWMssOS::Saving the mss changes /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:13::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system
+TRACE::2023-03-22.15:21:13::SCWMssOS::Writing the mss file completed /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:13::SCWMssOS::Commit changes completed.
+TRACE::2023-03-22.15:21:13::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:13::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:13::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:13::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:13::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:13::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:13::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_1
+TRACE::2023-03-22.15:21:13::SCWPlatform::Opened existing hwdb system_wrapper_1
+TRACE::2023-03-22.15:21:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:13::SCWMssOS::Checking the sw design at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:13::SCWMssOS::DEBUG:  swdes dump  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system||
+
+TRACE::2023-03-22.15:21:13::SCWMssOS::Sw design exists and opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:13::SCWWriter::formatted JSON is {
+	"platformName":	"system_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_platform",
+	"platHandOff":	"../hw/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_platform",
+	"systems":	[{
+			"systemName":	"system_platform",
+			"systemDesc":	"system_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_platform",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"a3f8046cdbbc32c9cfb4d94f6687c9b3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-22.15:21:25::SCWPlatform::Started generating the artifacts platform system_platform
+TRACE::2023-03-22.15:21:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-22.15:21:25::SCWPlatform::Started generating the artifacts for system configuration system_platform
+LOG::2023-03-22.15:21:25::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2023-03-22.15:21:25::SCWSystem::Not a boot domain 
+LOG::2023-03-22.15:21:25::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2023-03-22.15:21:25::SCWDomain::Generating domain artifcats
+TRACE::2023-03-22.15:21:25::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-22.15:21:25::SCWMssOS::Copying the qemu file from  /opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/export/system_platform/sw/system_platform/qemu/
+TRACE::2023-03-22.15:21:25::SCWMssOS::Copying the qemu file from  /opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/export/system_platform/sw/system_platform/standalone_ps7_cortexa9_0/qemu/
+TRACE::2023-03-22.15:21:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-22.15:21:25::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:25::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_1
+TRACE::2023-03-22.15:21:25::SCWPlatform::Opened existing hwdb system_wrapper_1
+TRACE::2023-03-22.15:21:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:25::SCWMssOS::Checking the sw design at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:25::SCWMssOS::DEBUG:  swdes dump  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system||
+
+TRACE::2023-03-22.15:21:25::SCWMssOS::Sw design exists and opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:25::SCWMssOS::Completed writing the mss file at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-03-22.15:21:25::SCWMssOS::Mss edits present, copying mssfile into export location /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:25::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-22.15:21:25::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-22.15:21:25::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2023-03-22.15:21:25::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-03-22.15:21:25::SCWMssOS::Copying to export directory.
+TRACE::2023-03-22.15:21:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-22.15:21:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2023-03-22.15:21:25::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2023-03-22.15:21:25::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2023-03-22.15:21:25::SCWSystem::Completed Processing the sysconfig system_platform
+LOG::2023-03-22.15:21:25::SCWPlatform::Completed generating the artifacts for system configuration system_platform
+TRACE::2023-03-22.15:21:25::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-22.15:21:25::SCWSystem::Writing the bif file for system config system_platform
+TRACE::2023-03-22.15:21:25::SCWSystem::dir created 
+TRACE::2023-03-22.15:21:25::SCWSystem::Writing the bif 
+TRACE::2023-03-22.15:21:25::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-22.15:21:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-22.15:21:25::SCWPlatform::Completed generating the platform
+TRACE::2023-03-22.15:21:25::SCWMssOS::Saving the mss changes /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-22.15:21:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-22.15:21:25::SCWMssOS::Commit changes completed.
+TRACE::2023-03-22.15:21:25::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:25::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_1
+TRACE::2023-03-22.15:21:25::SCWPlatform::Opened existing hwdb system_wrapper_1
+TRACE::2023-03-22.15:21:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:25::SCWMssOS::Checking the sw design at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:25::SCWMssOS::DEBUG:  swdes dump  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system||
+
+TRACE::2023-03-22.15:21:25::SCWMssOS::Sw design exists and opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:25::SCWWriter::formatted JSON is {
+	"platformName":	"system_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_platform",
+	"platHandOff":	"../hw/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_platform",
+	"systems":	[{
+			"systemName":	"system_platform",
+			"systemDesc":	"system_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_platform",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/opt/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"a3f8046cdbbc32c9cfb4d94f6687c9b3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-22.15:21:25::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-22.15:21:25::SCWPlatform::Trying to open the hw design at /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA given /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA absoulate path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform::DSA directory /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw
+TRACE::2023-03-22.15:21:25::SCWPlatform:: Platform Path /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/hw/system_wrapper.xsa
+TRACE::2023-03-22.15:21:25::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2023-03-22.15:21:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_1
+TRACE::2023-03-22.15:21:25::SCWPlatform::Opened existing hwdb system_wrapper_1
+TRACE::2023-03-22.15:21:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-22.15:21:25::SCWMssOS::Checking the sw design at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-03-22.15:21:25::SCWMssOS::DEBUG:  swdes dump  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system||
+
+TRACE::2023-03-22.15:21:25::SCWMssOS::Sw design exists and opened at  /home/ispr/ispr/tutorials/lab4/sw/workspace/system_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss

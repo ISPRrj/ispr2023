@@ -247,19 +247,19 @@ int main()
     	}
     		u32 switches = XGpio_DiscreteRead(&sw, 1); //Read switches value
 
-    		 if(switches==1){
+    		 if(switches&0x01){
     			 source = (u8 *)PROCESSOR_BRAM_MEMORY;
     			 cdma_source = (u8 *)CDMA_BRAM_MEMORY;
     			 destination = (u8 *)DDR_MEMORY;
     			 cdma_destination = (u8 *)DDR_MEMORY;
     		 }
-    		 else if(switches==2){
+    		 else if(switches&0x02){
     			 source = (u8 *)DDR_MEMORY;
     			 cdma_source = (u8 *)DDR_MEMORY;
     			 destination = (u8 *)PROCESSOR_BRAM_MEMORY;
     			 cdma_destination = (u8 *)CDMA_BRAM_MEMORY;
     		 }
-    		 else if (switches==3){
+    		 else if (switches&0x04){
     			 source = (u8 *)PROCESSOR_BRAM_MEMORY;
     			 cdma_source = (u8 *)CDMA_BRAM_MEMORY;
     			 destination = (u8 *) PROCESSOR_BRAM_MEMORY+LENGTH;

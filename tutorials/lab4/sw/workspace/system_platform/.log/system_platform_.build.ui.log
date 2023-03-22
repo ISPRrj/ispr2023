@@ -1,2 +1,6 @@
-2023-03-15T18:11:42.934719000-Nothing to build in platform 'system_platform'
+2023-03-22T15:21:22.7653400255-15:21:22 **** Incremental Build of project system_platform ****
+000-buildplatform.sh 43703 system_platform no_domain_build 
+000-XSDB Server Channel: tcfchan#1
+00255-
+15:21:28 Build Finished (took 5s.736ms)
 
